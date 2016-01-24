@@ -1,0 +1,70 @@
+blockquote{border-color: #777;}
+
+h1
+{ background: transparent;
+  color: #333;
+}
+
+body{background: white; }
+
+#main{background: #F5F6F0;}
+
+#header
+{ background: white;
+  color: #777;
+  border-top-color: #EEE;
+  border-bottom-color: #ABB197;
+}
+
+#logo, #logo h1
+{ background: transparent;
+  color: #ff0000;
+}
+
+#left_sidebar, #content, #right_sidebar, #content a:hover
+{ background: #F5F6F0;
+  color: #333;
+}
+
+.sidebaritem
+{ background: #E1E5D5;
+  color: #555;
+} 
+
+.sbilinks li a, .sidebaritem a
+{ background: transparent url(arrow.png) no-repeat left center;
+  color: #555;
+} 
+
+.menuitems li a:hover, .menuitems a:hover
+{ background: transparent url(arrow_select.png) no-repeat left center;
+  color: #555;
+}
+
+.menuitems li a#selected
+{ background: transparent url(arrow_select.png) no-repeat left center;
+  color: #555;
+}
+
+#content a
+{ background: transparent;
+  color: #cc4000;
+}
+
+#footer
+{ background: #B5B9A7;
+  color: #414141;
+  border-top: 1px solid red;
+}
+
+#search, #footer a, #footer a:hover
+{ background: transparent;
+  color: #414141;
+}
+
+/* Based on Nifty Corners: rounded corners without images */
+/* By Alessandro Fulciniti */
+/* http://www.html.it/articoli/nifty/index.html */
+.rtop, .rbottom{background: #F5F6F0;}
+.rtop .r1, .rtop .r2, .rtop .r3, .rtop .r4,
+.rbottom .r1, .rbottom .r2, .rbottom .r3, .rbottom .r4{background: #E1E5D5;}
